@@ -1,4 +1,4 @@
-# Find a real root of the equation 2x=〖log〗_10 x+7 between 3 and 4 correct to 3 decimal places by regula-falsi method. Then generalize the program for any equation whose real root lie between a and b. 
+#(RTMNU Practical Problem 1)  Find a real root of the equation 2x=〖log〗_10 x+7 between 3 and 4 correct to 3 decimal places by regula-falsi method. Then generalize the program for any equation whose real root lie between a and b. 
 # Python Code :
 
 # Defining Function
