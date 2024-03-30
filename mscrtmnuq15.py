@@ -24,7 +24,7 @@ def Modified_euler(x0,y0,xn,h):
         # By Euler Method
         y[0]=y0
         y[1]=y0+h*f(x0,y0)
-        print('By Eulers method y=',y[0])
+        print('By Eulers method y=',y[1])
         for j in range(2,n):         
             # By Modified Euler Method
             y[j]=y[j-2]+h/2*(f(x[j-2],y[j-2])+f(x0+h,y[j-1]))
@@ -46,10 +46,10 @@ xn = float(input('xn = '))
 h=float(input('Step size h='))
 
 print('Enter number of steps:')
-m=((xn-x0)/h)+1
-print('Number of steps=',m)
-n = int(input('Number of steps = '))
-
+m=int(((xn-x0)/h)+1)
+#print('Number of steps=',m)
+#n = int(input('Number of steps = '))
+n=m
 # Modified Euler method call
 
 Modified_euler(x0,y0,xn,h)
